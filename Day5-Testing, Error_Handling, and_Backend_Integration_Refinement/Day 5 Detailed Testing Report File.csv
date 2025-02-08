@@ -1,0 +1,20 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Severity Level,Assigned To,Remarks
+TC001,Products are displayed correctly,Open Products Page > Validate Products,Products Display Successfully,Products Display Successfully,low,-,No Issue Found
+TC002,Validate accurate results based on user inputs,"On searching, it filters products accurately and smoothly.",Product Search successfully,Product Search successfully,low,-,Successfully searched
+TC003,"Add, update, and remove items from the cart.",Add to cart select color and size notification when add to cart > added to cart notification> increase product quantity > click delete icon to delete or remove product,Product Add to cart and remove from cart successfully done.,Product Add to cart and remove from cart successfully done.,low,-,Gracefully handle adding and removing
+TC004,Verify individual product detail pages load correctly.,Navigate to shop and on click details button > it will navigate to dynamic route (single product) page and show the product details with slug url.,Navigate to dynamic route and show details of product successfully.,Display product details easily.,medium,-,"Successfully displayed, and no issue was found."
+TC005,Testing API in Postman,Paste API URl in Postman (GET,API Fetch in JSON Format,API Fetched successfully,Low,-,No Issue Found
+TC006,Test API Error Handling,Remove Groq Query Refresh Page,Error Message in the form of UI on Screen,Error Message show,Low,-,Handle Gracefully
+TC007,Light House Performance tesing,"DevTools > inspect > lighthouse > Select the appropriate categories (Performance, Accessibility, Best Practices, SEO) >Generate Report","Performance : 80 Accessibility : 100 
+Best Practice : 25 SEO : 50","Performance : 35 Accessibility : 82 
+Best Practice : 96 
+SEO : 100",Medium,-,Optimized
+TC008,Browser Compatibility Testing,"1.Open the website in Chrome, Firefox, and Edge. 
+2.fonts, and functionality consistency across browsers.
+3.Verify layout,Test responsiveness on different screen sizes.
+4.Check for performance differences and errors in the browser console.","1.Consistent rendering and functionality across all browsers.
+2.No layout, font, or interactive element issues. 
+3.Fast performance with no console errors or significant delays.","1.Chrome: All elements render correctly. Fast performance, no errors.
+2.Firefox: Slightly slower performance; minor font rendering differences, but no major issues.
+3.Edge: Rendering and functionality consistent with Chrome. No issues.",Low,-,consistent and acceptable.
+TC009,Device Testing through BrowserStack,"The layout, fonts, and interactive elements adapt correctly to all device sizes",Responsive across all devices with no layout or functionality issues,Responsive across all devices with no layout or functionality issues,Low,-,No functionality Issue Found.
